@@ -1,0 +1,87 @@
+[gd_scene format=4 uid="uid://b14akgaki5j0p"]
+
+[ext_resource type="PackedScene" uid="uid://cfufd5oynrkb5" path="res://scenes/player.tscn" id="1_uwrxv"]
+[ext_resource type="Texture2D" uid="uid://4aj8bcsts274" path="res://assets/tileset.png" id="1_yqjtg"]
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_yqjtg"]
+polygon = PackedVector2Array(6.0200653, 8, -8, 8, -8, -8, 6.0331173, -8)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_lnu2h"]
+polygon = PackedVector2Array(8, 8, -5.930084, 8, -5.930084, -8, 8, -8)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_lbhrr"]
+polygon = PackedVector2Array(8, -2.9748287, -8, -3.0139704, -8, -8, 8, -8)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_iywne"]
+polygon = PackedVector2Array(8, 8, -8, 8, -8, -5.9214354, 8, -5.9214354)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_p57ef"]
+polygon = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_u5sy4"]
+polygon = PackedVector2Array(8, 8, -6.047512, 8, -5.976672, -6.009815, 8, -5.9214354)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_gee14"]
+polygon = PackedVector2Array(6.0083733, 8, -8, 8, -8, -5.9888, 6.0083733, -5.9887996)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_0tnpc"]
+polygon = PackedVector2Array(6.0083733, 8, -5.969227, 8, -6.0083694, -8, 6.047516, -8)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_vtaks"]
+polygon = PackedVector2Array(-5.930084, -5.9105144, 6.0866585, -5.949657, 6.0866585, 8, -6.0083694, 8)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_kvpfn"]
+polygon = PackedVector2Array(-8, -8, 8, -8, 8, 5.871372, -8, 5.9496574)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yqjtg"]
+texture = ExtResource("1_yqjtg")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+2:0/0/occlusion_layer_0/polygon_0/polygon = SubResource("OccluderPolygon2D_lbhrr")
+2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:0/0 = 0
+3:0/0/occlusion_layer_0/polygon_0/polygon = SubResource("OccluderPolygon2D_p57ef")
+3:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:0/0 = 0
+5:0/0 = 0
+0:1/0 = 0
+0:1/0/occlusion_layer_0/polygon_0/polygon = SubResource("OccluderPolygon2D_yqjtg")
+0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:1/0 = 0
+1:1/0/occlusion_layer_0/polygon_0/polygon = SubResource("OccluderPolygon2D_lnu2h")
+1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:1/0 = 0
+2:1/0/occlusion_layer_0/polygon_0/polygon = SubResource("OccluderPolygon2D_iywne")
+2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:1/0 = 0
+3:1/0/occlusion_layer_0/polygon_0/polygon = SubResource("OccluderPolygon2D_u5sy4")
+3:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:1/0 = 0
+4:1/0/occlusion_layer_0/polygon_0/polygon = SubResource("OccluderPolygon2D_gee14")
+4:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+5:1/0 = 0
+5:1/0/occlusion_layer_0/polygon_0/polygon = SubResource("OccluderPolygon2D_0tnpc")
+5:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+6:1/0 = 0
+6:1/0/occlusion_layer_0/polygon_0/polygon = SubResource("OccluderPolygon2D_vtaks")
+6:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+7:1/0 = 0
+7:1/0/occlusion_layer_0/polygon_0/polygon = SubResource("OccluderPolygon2D_kvpfn")
+7:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSet" id="TileSet_eiqrc"]
+occlusion_layer_0/light_mask = 1
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_yqjtg")
+
+[node name="game" type="Node2D" unique_id=1533282818]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1948125942]
+tile_map_data = PackedByteArray("AAD+////AAAAAAAAAAD/////AAAAAAAAAAABAP//AAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAD+/wAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAD+/wEAAAAAAAAAAAD//wEAAAAAAAAAAAD9/wEAAAAAAAAAAAD9/wAAAAAAAAAAAAD9////AAAAAAAAAAD9//7/AAAAAAAAAAD+//7/AAAAAAAAAAD///7/AAAAAAAAAAAAAP7/AAAAAAAAAAABAP7/AAAAAAAAAAACAP7/AAAAAAAAAAACAP//AAAAAAAAAAACAAAAAAAAAAAAAAACAAEAAAAAAAAAAAD9/wIAAAAAAAAAAAD+/wIAAAAAAAAAAAD//wIAAAAAAAAAAAAAAAIAAAAAAAAAAAABAAIAAAAAAAAAAAACAAIAAAAAAAAAAAADAAIAAAAAAAAAAAADAAEAAAAAAAAAAAADAAAAAAAAAAAAAAADAP//AAAAAAAAAAADAP7/AAAAAAAAAAABAP3/AAAAAAAAAAADAP3/AAAAAAAAAAACAP3/AAAAAAAAAAAAAP3/AAAAAAAAAAD///3/AAAAAAAAAAD9//3/AAAAAAAAAAD+//3/AAAAAAAAAAD8/wAAAAAAAAAAAAD8/wEAAAAAAAAAAAD8////AAAAAAAAAAD8//7/AAAAAAAAAAD8//3/AAAAAAAAAAD7/wIAAAAAAAEAAAD7/wEAAAAAAAEAAAD7////AAAAAAEAAAD8//z/AAACAAAAAAD+//z/AAACAAAAAAD9//z/AAACAAAAAAD///z/AAACAAAAAAAAAPz/AAACAAAAAAABAPz/AAACAAAAAAACAPz/AAACAAAAAAADAPz/AAACAAAAAAD7//3/AAAAAAEAAAD7//7/AAAAAAEAAAD7/wAAAAAAAAEAAAAEAP3/AAAFAAEAAAAEAP7/AAAFAAEAAAAEAP//AAAFAAEAAAAEAAAAAAAFAAEAAAAEAAEAAAAFAAEAAAAEAAIAAAAFAAEAAAADAAMAAAACAAAAAAACAAMAAAACAAAAAAABAAMAAAACAAAAAAAAAAMAAAAAAAAAAAD//wMAAAACAAAAAAD7//z/AAADAAAAAAAEAPz/AAADAAAAAAAEAAMAAAAFAAEAAAD+/wMAAAACAAAAAAD9/wMAAAACAAAAAAD8/wMAAAACAAAAAAD7/wMAAAAAAAEAAAD8/wIAAAAAAAAAAAAFAPz/AAAAAAAAAAAFAP3/AAAAAAAAAAAFAP7/AAAAAAAAAAAFAP//AAAAAAAAAAA=")
+tile_set = SubResource("TileSet_eiqrc")
+
+[node name="player" parent="." unique_id=2138556399 instance=ExtResource("1_uwrxv")]
+
+[node name="CanvasModulate" type="CanvasModulate" parent="." unique_id=1546597203]
+color = Color(0.039215688, 0.039215688, 0.039215688, 1)
