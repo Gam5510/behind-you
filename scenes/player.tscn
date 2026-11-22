@@ -135,7 +135,7 @@ script = ExtResource("1_g2els")
 position = Vector2(0, -8)
 sprite_frames = SubResource("SpriteFrames_dgfsc")
 animation = &"down"
-frame_progress = 0.89167327
+frame_progress = 0.2417131
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=39140144]
 position = Vector2(0, -8)
